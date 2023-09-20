@@ -24,7 +24,7 @@ header{
     align-items: center;
     justify-content: space-between;
     box-shadow: 0 0 5px -2px #858585;
-    padding: 0 5%;
+    padding: 0 50px;
 }
 
 .title{
@@ -54,7 +54,7 @@ header{
 
 .dark-Fav-btn > span{
     display: none;
-    padding-right: 5px;
+    padding-inline-end: 5px;
 }
 
 .dark-Fav-btn > ion-icon{
@@ -64,7 +64,7 @@ header{
 .greeting-section{
     background-color: var(--bg-default);
     box-shadow: 0 0 3px -2px #858585;
-    padding-inline: 5%;
+    padding-inline: 50px;
     display: flex;
     justify-content: center;
 }
@@ -100,7 +100,7 @@ header{
 }
 
 .page-content{
-    padding-inline: 5%;
+    padding-inline: 50px;
     padding-top: 20px;
 }
 
@@ -180,6 +180,7 @@ form:focus-within{
     border-radius: 10px;
     box-shadow: 0 0 5px -2px #858585;
     display: block;
+    padding: 0;
 }
 
 .card-image{
