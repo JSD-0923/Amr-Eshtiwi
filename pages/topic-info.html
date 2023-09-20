@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..\styles\index.css">
+    <link rel="stylesheet" href="..\styles\topic-info.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,400;6..12,700&display=swap"
+        rel="stylesheet">
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>web Topics</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="title">Web Topics</h1>
+        <div class="buttons">
+            <button class="dark-Fav-btn">
+                <ion-icon name="moon-outline"></ion-icon>
+                <span>Dark Mode</span>
+            </button>
+
+            <button class="dark-Fav-btn">
+                <ion-icon name="heart-outline"></ion-icon>
+                <span>Favourites</span>
+            </button>
+        </div>
+    </header>
+
+    <section class="greeting-section">
+        <div class="triangles">
+            <div class="triangle-1"></div>
+            <div class="triangle-2"></div>
+        </div>
+        <div>
+            <h1 class="Welcome">Welcome to our website!</h1>
+            <p class="welcome-paragraph">We have a new design that's fresh, modern, and easy to use.</p>
+        </div>
+    </section>
+
+    <section class="topic-container">
+        <section class="topic-data">
+            <section class="topic-data-values">
+                <h1>Web Development Languages</h1>
+                <h2>HTML</h2>
+                <span>
+                    <ion-icon class="star" name="star"></ion-icon>
+                    <ion-icon class="star" name="star"></ion-icon>
+                    <ion-icon class="star" name="star"></ion-icon>
+                    <ion-icon class="star" name="star"></ion-icon>
+                    <ion-icon class="star" name="star-outline"></ion-icon>
+                </span>
+                <p>HTML (HyperText Markup Languages) is the standard markup languages for creating web pages and other
+                    information that can be displayed in a web browser. It provides a structure for content and defines
+                    how it should be displayed on a web page, including text, images, and multimedia. HTML is essential
+                    for creating static web pages and is a foundational technology for the World Wide Web.</p>
+            </section>
+
+            <section class="topic-card">
+                <div class="topic-card-image">
+                    <img src="/assest/images/javascript.jpg" width="100%" height="100%">
+                </div>
+                <section class="topic-card-content">
+                    <span class="title-auther"><strong>HTML</strong> by <a href="#">Sarah Smith</a></span>
+                    <section class="add-favourties-container">
+                        <p>Interested about this topic?</p>
+                        <button class="add-favourites-button">
+                            <span>Add to Favourites </span>
+                            <span class="facourites-icon"><ion-icon name="heart-outline"></ion-icon></span>
+                        </button>
+                        <p class="credits">Unlimited Credits</p>
+                    </section>
+                </section>
+            </section>
+        </section>
+
+        <section class="sub-topic-container">
+            <section class="sub-topics">
+                <h1>HTML Sub Topics</h1>
+                <section class="sub-topic"><ion-icon class="sub-topic-icon" name="checkmark-circle-outline"></ion-icon>
+                    <p class="sub-topic-title">HTML syntax and structure</p>
+                </section>
+                <section class="sub-topic"><ion-icon class="sub-topic-icon" name="checkmark-circle-outline"></ion-icon>
+                    <p class="sub-topic-title">HTML element and attribute</p>
+                </section>
+                <section class="sub-topic"><ion-icon class="sub-topic-icon" name="checkmark-circle-outline"></ion-icon>
+                    <p class="sub-topic-title">HTML forms and input elements</p>
+                </section>
+                <section class="sub-topic"><ion-icon class="sub-topic-icon" name="checkmark-circle-outline"></ion-icon>
+                    <p class="sub-topic-title">HTML multimedia elements (audio,video,images)</p>
+                </section>
+                <section class="sub-topic"><ion-icon class="sub-topic-icon" name="checkmark-circle-outline"></ion-icon>
+                    <p class="sub-topic-title">HTML accessability and semantic markup</p>
+                </section>
+            </section>
+        </section>
+    </section>
+
+    <footer> Developed with &#128151; &copy; 2023</footer>
+</body>
+
+</html>
