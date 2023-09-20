@@ -26,7 +26,7 @@
             </button>
 
             <button class="dark-Fav-btn">
-                <ion-icon name="star-outline"></ion-icon>
+                <ion-icon name="heart-outline"></ion-icon>
                 <span>Favourites</span>
             </button>
         </div>
@@ -37,8 +37,205 @@
             <div class="triangle-1"></div>
             <div class="triangle-2"></div>
         </div>
-        <h1 class="Welcome">Welcome to our website!</h1>
-        <p class="welcome-paragraph">We have a new design that's fresh, modern, and easy to use.</p>
+        <div>
+            <h1 class="Welcome">Welcome to our website!</h1>
+            <p class="welcome-paragraph">We have a new design that's fresh, modern, and easy to use.</p>
+        </div>
+    </section>
+    <section class="page-content">
+        <section class="search-section">
+            <form class="search-input">
+                <label for="search" class="search-icon"> <ion-icon name="search-outline"></ion-icon></label>
+                <input class="search-text-input" type="text" id="search" name="search"
+                    placeholder="Search the website...">
+            </form>
+            <div class="select-container sort">
+                <div>Sort by:</div>
+                <select class="select-box" name="sortBy" id="sort">
+                    <option value="defult" selected>defult</option>
+                    <option value="test1">test1</option>
+                    <option value="test2">test2</option>
+                    <option value="test3">test3</option>
+                </select>
+            </div>
+            <div class="select-container filter">
+                <div>Filter by:</div>
+                <select class="select-box" name="filterBy" id="filter">
+                    <option value="defult">defult</option>
+                </select>
+            </div>
+        </section>
+
+        <div class="data-information">"<span>24</span>" Web Topics Found</div>
+
+        <section class="topics-card">
+            <!-- HTML -->
+            <a href="pages/topic-info.html"  class="card">
+                <!-- <div class="card-image" style="background-image: url('..\assest\images\html.png');"></div> -->
+                <img src="assest\images\html.png" alt="html" class="card-image">
+                <div class="card-info">
+                    <h1>Web development languages</h1>
+                    <h2>HTML</h2>
+                    <span>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star-outline"></ion-icon>
+                    </span>
+                    <div>Author:<span>Sarah Smith</span></div>
+                </div>
+            </a>
+            <!-- CSS -->
+            <a href="#" class="card">
+                <img src="assest\images\css.webp" alt="css" class="card-image">
+                <div class="card-info">
+                    <h1>Web development languages</h1>
+                    <h2>CSS</h2>
+                    <span>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star-outline"></ion-icon>
+                    </span>
+                    <div>Author:<span>David Lee</span></div>
+                </div>
+            </a>
+            <!-- JS -->
+            <a href="#" class="card">
+                <img src="assest\images\javascript.jpg" alt="js" class="card-image">
+                <div class="card-info">
+                    <h1>Web development languages</h1>
+                    <h2>JavaScript</h2>
+                    <span>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star-outline"></ion-icon>
+                    </span>
+                    <div>Author:<span>Emily Chen</span></div>
+                </div>
+            </a>
+            <!-- JQuery -->
+            <a href="#" class="card">
+                <img src="assest\images\jquery.png" alt="jquery" class="card-image">
+                <div class="card-info">
+                    <h1>Frontend Frameworks and Libraries</h1>
+                    <h2>jQuery</h2>
+                    <span>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star-outline"></ion-icon>
+                    </span>
+                    <div>Author:<span>John Johnson</span></div>
+                </div>
+            </a>
+            <!-- Angular -->
+            <a href="#" class="card">
+                <img src="assest\images\angular.png" alt="angular" class="card-image">
+                <div class="card-info">
+                    <h1>Frontend Framworks and Libraries</h1>
+                    <h2>Angular</h2>
+                    <span>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star-outline"></ion-icon>
+                    </span>
+                    <div>Author:<span>Jessica Davis</span></div>
+                </div>
+            </a>
+            <!-- React -->
+            <a href="#" class="card">
+                <img src="assest\images\react.webp" alt="react" class="card-image">
+                <div class="card-info">
+                    <h1>Frontend Frameworks and Libraries</h1>
+                    <h2>React</h2>
+                    <span>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star-outline"></ion-icon>
+                    </span>
+                    <div>Author:<span>Daniel Brown</span></div>
+                </div>
+            </a>
+            <!-- Vue.js -->
+            <a href="#" class="card">
+                <img src="assest\images\vuejs.jpeg" alt="vuejs" class="card-image">
+                <div class="card-info">
+                    <h1>Frontend Frameworks and Libraries</h1>
+                    <h2>Vue.js</h2>
+                    <span>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <!-- <ion-icon class="star" name="star"></ion-icon> -->
+                        <ion-icon class="star" name="star-half-outline"></ion-icon>
+                        <ion-icon class="star" name="star-outline"></ion-icon>
+                    </span>
+                    <div>Author:<span>Ava Jones</span></div>
+                </div>
+            </a>
+            <!-- Node.js -->
+            <a href="#" class="card">
+                <img src="assest\images\nodejs.webp" alt="nodejs" class="card-image">
+                <div class="card-info">
+                    <h1>Backend Frameworks and Libraries</h1>
+                    <h2>Vue.js</h2>
+                    <span>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <!-- <ion-icon class="star" name="star-half-outline"></ion-icon> -->
+                        <ion-icon class="star" name="star-outline"></ion-icon>
+                    </span>
+                    <div>Author:<span>Micheal Kim</span></div>
+                </div>
+            </a>
+            <!-- Express.js -->
+            <a href="#" class="card">
+                <img src="assest\images\expressjs.webp" alt="express" class="card-image">
+                <div class="card-info">
+                    <h1>Backend Frameworks and Libraries</h1>
+                    <h2>Vue.js</h2>
+                    <span>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <!-- <ion-icon class="star" name="star"></ion-icon> -->
+                        <ion-icon class="star" name="star-half-outline"></ion-icon>
+                        <ion-icon class="star" name="star-outline"></ion-icon>
+                    </span>
+                    <div>Author:<span>Sophia Rodriguez</span></div>
+                </div>
+            </a>
+            <!-- Ruby  -->
+            <a href="#" class="card">
+                <img src="assest\images\ruby.jpeg" alt="ruby" class="card-image">
+                <div class="card-info">
+                    <h1>Backend Frameworks and Libraries</h1>
+                    <h2>Ruby on Rails</h2>
+                    <span>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <ion-icon class="star" name="star"></ion-icon>
+                        <!-- <ion-icon class="star" name="star"></ion-icon> -->
+                        <!-- <ion-icon class="star" name="star-half-outline"></ion-icon> -->
+                        <ion-icon class="star" name="star-outline"></ion-icon>
+                        <ion-icon class="star" name="star-outline"></ion-icon>
+                    </span>
+                    <div>Author:<span>Ava Jones</span></div>
+                </div>
+            </a>
+        </section>
     </section>
 </body>
 
