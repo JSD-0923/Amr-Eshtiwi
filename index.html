@@ -13,67 +13,69 @@
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="JavaScript/darkMode.js"></script>
+    <script src="JavaScript/render.js"></script>
     <title>web Topics</title>
 </head>
 
-<body>
-    <header>
+<body id="body" class="body-light" onload="render()">
+    <header class="background-light">
         <h1 class="title">Web Topics</h1>
         <div class="buttons">
-            <button class="dark-Fav-btn">
+            <button class="dark-Fav-btn text-light" onclick="darkModeValue(); darkMode();">
                 <ion-icon name="moon-outline"></ion-icon>
                 <span>Dark Mode</span>
             </button>
 
-            <button class="dark-Fav-btn">
+            <button class="dark-Fav-btn text-light">
                 <ion-icon name="heart-outline"></ion-icon>
                 <span>Favourites</span>
             </button>
         </div>
     </header>
 
-    <section class="greeting-section">
+    <section class="greeting-section background-light">
         <div class="triangles">
             <div class="triangle-1"></div>
             <div class="triangle-2"></div>
         </div>
         <div>
             <h1 class="Welcome">Welcome to our website!</h1>
-            <p class="welcome-paragraph">We have a new design that's fresh, modern, and easy to use.</p>
+            <p class="welcome-paragraph text-light">We have a new design that's fresh, modern, and easy to use.</p>
         </div>
     </section>
     <section class="page-content">
-        <section class="search-section">
+        <section class="search-section background-light text-light">
             <form class="search-input">
                 <label for="search" class="search-icon"> <ion-icon name="search-outline"></ion-icon></label>
-                <input class="search-text-input" type="text" id="search" name="search"
+                <input class="search-text-input background-light" type="text" id="search" name="search"
                     placeholder="Search the website...">
             </form>
-            <div class="select-container sort">
+            <div class="select-container sort text-light">
                 <div>Sort by:</div>
-                <select class="select-box" name="sortBy" id="sort">
+                <select class="select-box background-light text-light" name="sortBy" id="sort">
                     <option value="defult" selected>defult</option>
                     <option value="test1">test1</option>
                     <option value="test2">test2</option>
                     <option value="test3">test3</option>
                 </select>
             </div>
-            <div class="select-container filter">
+            <div class="select-container filter text-light">
                 <div>Filter by:</div>
-                <select class="select-box" name="filterBy" id="filter">
+                <select class="select-box background-light text-light" name="filterBy" id="filter">
                     <option value="defult">defult</option>
                 </select>
             </div>
         </section>
 
-        <div class="data-information">"<span>24</span>" Web Topics Found</div>
+        <div class="data-information text-light">"<span>24</span>" Web Topics Found</div>
 
-        <section class="topics-card">
+        <section class="topics-card ">
             <!-- HTML -->
-            <a href="pages/topic-info.html"  class="card">
+            <a href="pages/topic-info.html"  class="card background-light ">
                 <!-- <div class="card-image" style="background-image: url('..\assest\images\html.png');"></div> -->
                 <img src="assest\images\html.png" alt="html" class="card-image">
-                <div class="card-info">
+                <div class="card-info text-light">
                     <h1>Web development languages</h1>
                     <h2>HTML</h2>
                     <span>
@@ -87,9 +89,9 @@
                 </div>
             </a>
             <!-- CSS -->
-            <a href="#" class="card">
+            <a href="#" class="card background-light">
                 <img src="assest\images\css.webp" alt="css" class="card-image">
-                <div class="card-info">
+                <div class="card-info text-light">
                     <h1>Web development languages</h1>
                     <h2>CSS</h2>
                     <span>
@@ -103,9 +105,9 @@
                 </div>
             </a>
             <!-- JS -->
-            <a href="#" class="card">
+            <a href="#" class="card background-light">
                 <img src="assest\images\javascript.jpg" alt="js" class="card-image">
-                <div class="card-info">
+                <div class="card-info text-light">
                     <h1>Web development languages</h1>
                     <h2>JavaScript</h2>
                     <span>
@@ -119,9 +121,9 @@
                 </div>
             </a>
             <!-- JQuery -->
-            <a href="#" class="card">
+            <a href="#" class="card background-light">
                 <img src="assest\images\jquery.png" alt="jquery" class="card-image">
-                <div class="card-info">
+                <div class="card-info text-light">
                     <h1>Frontend Frameworks and Libraries</h1>
                     <h2>jQuery</h2>
                     <span>
@@ -135,9 +137,9 @@
                 </div>
             </a>
             <!-- Angular -->
-            <a href="#" class="card">
+            <a href="#" class="card background-light">
                 <img src="assest\images\angular.png" alt="angular" class="card-image">
-                <div class="card-info">
+                <div class="card-info text-light">
                     <h1>Frontend Framworks and Libraries</h1>
                     <h2>Angular</h2>
                     <span>
@@ -151,9 +153,9 @@
                 </div>
             </a>
             <!-- React -->
-            <a href="#" class="card">
+            <a href="#" class="card background-light">
                 <img src="assest\images\react.webp" alt="react" class="card-image">
-                <div class="card-info">
+                <div class="card-info text-light">
                     <h1>Frontend Frameworks and Libraries</h1>
                     <h2>React</h2>
                     <span>
@@ -167,9 +169,9 @@
                 </div>
             </a>
             <!-- Vue.js -->
-            <a href="#" class="card">
+            <a href="#" class="card background-light">
                 <img src="assest\images\vuejs.jpeg" alt="vuejs" class="card-image">
-                <div class="card-info">
+                <div class="card-info text-light">
                     <h1>Frontend Frameworks and Libraries</h1>
                     <h2>Vue.js</h2>
                     <span>
@@ -184,9 +186,9 @@
                 </div>
             </a>
             <!-- Node.js -->
-            <a href="#" class="card">
+            <a href="#" class="card background-light">
                 <img src="assest\images\nodejs.webp" alt="nodejs" class="card-image">
-                <div class="card-info">
+                <div class="card-info text-light">
                     <h1>Backend Frameworks and Libraries</h1>
                     <h2>Vue.js</h2>
                     <span>
@@ -201,9 +203,9 @@
                 </div>
             </a>
             <!-- Express.js -->
-            <a href="#" class="card">
+            <a href="#" class="card background-light">
                 <img src="assest\images\expressjs.webp" alt="express" class="card-image">
-                <div class="card-info">
+                <div class="card-info text-light">
                     <h1>Backend Frameworks and Libraries</h1>
                     <h2>Vue.js</h2>
                     <span>
@@ -218,9 +220,9 @@
                 </div>
             </a>
             <!-- Ruby  -->
-            <a href="#" class="card">
+            <a href="#" class="card background-light">
                 <img src="assest\images\ruby.jpeg" alt="ruby" class="card-image">
-                <div class="card-info">
+                <div class="card-info text-light">
                     <h1>Backend Frameworks and Libraries</h1>
                     <h2>Ruby on Rails</h2>
                     <span>
